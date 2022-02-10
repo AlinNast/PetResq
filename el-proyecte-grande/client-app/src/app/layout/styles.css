@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* Colors 
+  #ffb380
+  #ff751a
+  #751AFF
+*/
+
+* {
+  font-family: "Quicksand";
+  
+}
+
+* {cursor: url(http://www.zingerbugimages.com/cursors/catscratch_with_pointer.ani), url(http://www.zingerbug.com/cursors/cursors/catscratch_with_pointer.gif), progress !important;}
+
+body {
+  background-color: #EAEAEA !important;
+  
+
+  
+}
+
+
+/* Navbar */
+
+.ui.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(90deg, #ff751a 30%, #ffb380 90%, #ffb380 90%);
+  height:min-content;
+  width: 100%;
+}
+
+
+
+/* Navbar Logo */
+
+.ui.inverted.menu .item {
+  height: 80px;
+  font-size: large;
+  color: #FFF !important;
+}
+.ui.inverted.menu .item:hover {
+  font-size: large;
+  color: #751AFF !important;
+}
+img#Logo:hover {
+  background-image: url('../../../public/assets/logoHover.png');
+}
+
+
+/* Navbar Links */
+.ui.inverted.menu a.item {
+  float: left;
+  font-size: large;
+  font-weight: bold;
+  color: #FFF !important;
+}
+.ui.inverted.menu a.item:hover {
+  font-size: large;
+  color: #751AFF !important;
+}
+
+.ui.inverted.menu a.item.active {
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+.ui.inverted.menu a.item.active:hover {
+  font-size: large;
+  color: #751AFF !important;
+}
+
+/* End of navbar */
+
+
+/* Footer */
+
+
+footer {
+  text-align: center;
+  background-image:linear-gradient(90deg,#ae7cf8 30%, #ae7cf8 50%,#751AFF 90%);
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 500;
+  height: 50px;
+  margin-top: 50px;
+  width: 100%;
+  bottom: 0;
+  clear: both;
+  position: fixed;
+}
+.footer .credits {
+  display:block;
+  margin: auto !important;
+  font-size: small;  
+  top: 50%;
+  padding: 13px;
+}
+
+/* End of footer */
+
+
+
+.ui.grid {
+  margin-top: 2rem !important;
+}
+
+
+
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: url('../../../public/assets/cat-opens-eyes.gif') !important;
+  height: 100vh;
+}
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
