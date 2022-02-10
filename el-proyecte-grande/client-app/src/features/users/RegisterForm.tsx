@@ -27,10 +27,10 @@ export default observer (function RegisterForm() {
                     <MyTextInput name="username" placeholder="Username"/>
                     <MyTextInput name="email" placeholder="Email"/>
                     <MyTextInput name="password" placeholder="Password" type="password"/>
-                    <ErrorMessage
+                    {/* <ErrorMessage
                     name="error" render={() => 
                     <Label style ={{marginBottom: 10}} basic color='red' content={errors.error}/>}
-                    /> 
+                    />  */}
                     <Button disabled={!isValid || !dirty || isSubmitting}
                         loading={isSubmitting} positive content='Register' type='submit' fluid />
                 </Form>
